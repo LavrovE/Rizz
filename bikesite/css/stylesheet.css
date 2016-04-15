@@ -64,7 +64,7 @@ height: 100%;
 width: 1060px;
 margin: 0 auto;
     padding-left: 45px;
-    padding-right: 45px;
+    padding-right: 50px;
 }
 .header {
     padding-top: 50px;
@@ -120,11 +120,15 @@ margin: 0 auto;
             line-height: 40px;
 
 }
+.goodntext{
+    float: right;
+}
 .goods {
     height: 240px;
     width: 240px;
     background-color: #fff;
     border:1px solid #dfdfdf;
+        float: left;
 
 }
 .goods li:first-child{
@@ -143,12 +147,35 @@ border-bottom:none;
 }
 .goods a {
      color: #656363;
-        font-family: Times New Roman;
-        font-size: 15px;
+     
+        font-size: 13.3px;
        line-height: 40px;
        margin-left: 24px;
 }
 .activeSide{
  background-color: #f9f9f9;
       padding-left: 36px;
+}
+.good {
+  
+    width: 677px;
+    height: 400px;
+    background-color: #fff;
+    background-image: url(../img/bike.jpg);
+    background-repeat: no-repeat;
+    border: 1px solid #dfdfdf;
+    background-position: 89px 46px;
+}
+.text {
+        margin-top: 35px;
+    /* color: #2c2c2c; */
+    padding-left: 24px;
+    font-size: 13.3px;
+    line-height: 21.33px;
+    padding-right: 25px;
+    width: 677px;
+}
+.text p {
+        color: #2c2c2c;
+    letter-spacing: -0.1px;
 }
