@@ -179,3 +179,53 @@ border-bottom:none;
         color: #2c2c2c;
     letter-spacing: -0.1px;
 }
+.footer {
+    margin-top: 58px;
+}
+.lowmenu li {
+display: inline-block;
+}
+.lowmenu a {
+     color: #2c2c2c;
+      font-family: OpenSans;
+      font-size: 13.33px;
+}
+.lowmenu {
+height: 40px;
+background-color: #e1e1e1;
+}
+.activeMenu2{
+      text-decoration: underline;
+
+  
+}
+
+.lowmenu li:nth-child(1){
+padding-left: 24px;
+    padding-right: 59px;
+}
+.lowmenu li:nth-child(2){
+    padding-left: 29px;
+    padding-right: 23px;
+         
+}
+.lowmenu li:nth-child(3){
+    padding-left: 67px;
+    padding-right: 61px;
+}
+.lowmenu li:nth-child(4){
+     margin-left: 27px;
+    margin-right: 22px;
+}
+.lowmenu ul {
+    line-height: 40px;
+        float: left;
+}
+.law {
+    color: #2c2c2c;
+    font-family: OpenSans;
+    font-size: 13.33px;
+    float: right;
+    line-height: 40px;
+    margin-right: 20px;
+}
